@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import logo from '../assets/img/logo.png';
-import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
 
 const Navbarr = () =>{
@@ -42,11 +41,6 @@ const Navbarr = () =>{
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Portfolio</Nav.Link>
               <Nav.Link href="#blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Blog</Nav.Link>
             </Nav>
-            <span className="navbar-text">
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
-            </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
