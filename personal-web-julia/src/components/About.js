@@ -42,7 +42,7 @@ const About = (props) => {
                         { renderHighlights() }
                     </div>
                     <div className="about-me-options">
-                         <a href="https://drive.google.com/file/d/1Gum2eNU5Rg0Gs1AunCi0aDpwzKpt6KrN/view?usp=sharing" download="CV-JuliaArisanda.pdf">
+                         <a href="https://drive.google.com/file/d/1Gum2eNU5Rg0Gs1AunCi0aDpwzKpt6KrN/view?usp=sharing">
                             <button className="btn highlighted-btn"> Get Resume </button>
                          </a>
                     </div>
