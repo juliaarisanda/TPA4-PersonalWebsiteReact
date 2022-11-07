@@ -13,9 +13,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><FaInstagram size={32} color="white"/></a>
-              <a href="#"><FaGithub size={32} color="white"/></a>
-              <a href="#"><FaLinkedin size={32} color="white"/></a>
+              <a href="https://www.instagram.com/juliaarisanda"><FaInstagram size={32} color="white"/></a>
+              <a href="https://github.com/juliaarisanda"><FaGithub size={32} color="white"/></a>
+              <a href="https://www.linkedin.com/in/julia-arisanda-h-690b71139/"><FaLinkedin size={32} color="white"/></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
