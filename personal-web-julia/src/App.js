@@ -1,11 +1,12 @@
 import React from "react"
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbarr from "./components/Navbar";
 import Banner  from "./components/Banner";
 import About from "./components/About";
 import {Portfolio} from "./components/Portfolio";
+import { Footer } from "./components/Footer";
+
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <About/>
       <Portfolio/>
+      <Footer/>
     </div>
   );
 }
