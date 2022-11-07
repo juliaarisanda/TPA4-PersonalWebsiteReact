@@ -27,6 +27,7 @@ const About = (props) => {
     }
 
     return (
+        <section className='aboutme' id='about'>
         <div className="about-me-container screen-container fade-in" id={ props.id || ''}>
             <div className="about-me-parent ">
                 <h2>About Me</h2>
@@ -44,6 +45,7 @@ const About = (props) => {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 
